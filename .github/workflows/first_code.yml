@@ -9,6 +9,6 @@ jobs:
       - name: Run a one-line script
         run: echo "HelloWorld!"
       - name: list files
-        run: ls
+        run: ls -la
       - name: Read the file
         run: cat test
